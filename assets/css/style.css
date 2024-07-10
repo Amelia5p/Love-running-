@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -40,9 +41,4 @@ main {
 footer{
     background-color: orange;
 
-}
-
-h1{
-    font-family: Oswald;
-    font-size: 200px;
 }
