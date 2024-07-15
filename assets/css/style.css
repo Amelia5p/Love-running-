@@ -211,6 +211,15 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px){
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -220,6 +229,7 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        
     }
 
     #menu {
@@ -238,6 +248,10 @@ main {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    #photos {
+        column-count: 3;
     }
 
     /* Main content */
@@ -280,6 +294,10 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    #photos {
+        column-count: 4;
+    }
+}
  
  /* large devices 1200px and up */
 
@@ -310,4 +328,3 @@ main {
     align-self: flex-end;
 }
  }
-}
